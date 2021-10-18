@@ -31,3 +31,34 @@ input::-webkit-input-placeholder{
     color: #27b36a;
     margin-right: 2px;
 }
+
+/*CARDS*/
+.cardcontents{
+    max-width: 18rem;
+    box-shadow: 0px 0px 20px rgb(0 0 0 / 30%);
+    margin-top: 100px;
+    margin-right: 60px;
+}
+.cardcontents:hover{
+    position: relative;
+    bottom: 70px;
+    transition: all 1s;
+}
+.cardmodifications{
+    color: black;
+    font-size: 25px;
+    padding-top: 15px;
+}
+.cardmodifications p{
+    color: #7c8595;
+    font-weight: 400;
+    padding-top: 10px;
+    margin-bottom: 15px;
+}
+.cardparagraph{
+    color: #7c8595;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    padding: 15px;
+}
