@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'Open-sans';
+    src: url("../fonts/opensans/OpenSans-Regular.ttf");
+}
+@font-face {
+    font-family:"openSans-light";
+    src: url("../fonts/opensans/OpenSans-Light.ttf");
+}
 body{
     margin: 0;
     padding: 0;
@@ -56,8 +64,9 @@ input::-webkit-input-placeholder{
     margin-bottom: 15px;
 }
 .cardparagraph{
+    font-family:"openSans-light";
     color: #7c8595;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 500;
     margin-bottom: 10px;
     padding: 15px;
@@ -101,4 +110,55 @@ input::-webkit-input-placeholder{
     position: relative;
     bottom: 70px;
     transition: all 1s;
+}
+/*ICONS of SPECIALIST*/
+.controls-border-icon1{
+    background-color: #007bff;
+    border-radius: 100%;
+    font-size: 20px;
+    margin-right: 5px;
+}
+.controls-border-icon1 i{
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+}
+.controls-border-icon2{
+    background-color: #C92228;
+    border-radius: 100%;
+    font-size: 20px;
+    margin-right: 5px;
+}
+.controls-border-icon2 i{
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+}
+.controls-border-icon3{
+    background-color: #3b5998;
+    border-radius: 100%;
+    font-size: 20px;
+    margin-right: 5px;
+}
+.controls-border-icon3 i{
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+}
+.controls-border-icon4{
+    background-color: #ea4c89;
+    border-radius: 100%;
+    font-size: 20px;
+}
+.controls-border-icon4 i{
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+}
+/*STARS*/
+.color-star{
+    color: #fdcc28;
+}
+.color-star-5{
+    color: #b8b9bb;
 }
