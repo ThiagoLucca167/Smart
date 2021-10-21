@@ -39,10 +39,10 @@
                             <a class="nav-link" href="#pricing">Pricing</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" href="#">Blog</a>
+                            <a class="nav-link" href="#blog">Blog</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" href="#" style="margin-right: 100px;">Contact</a>
+                            <a class="nav-link" href="#contact" style="margin-right: 100px;">Contact</a>
                           </li>
                           <li class="nav-item">
                             <a class="nav-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
@@ -601,7 +601,7 @@
 <section>
   <div class="container-fluid" style="background-color: #f5f7fc;">
       <div class="row">
-          <div class="container">
+          <div class="container" id="blog">
             <h1 style="text-align: center;margin-top: 75px;color: #071e55;">Our Blog</h1> 
               <div class="col-12" style="display: flex;flex-direction: row;justify-content: start;text-align: center;margin-bottom: 60px;">    
                       <div class="card text-white bg-light mb-3 cardblog">
@@ -636,27 +636,57 @@
 <section>
   <div class="container-fluid">
       <div class="row">
-          <div class="container">
-              <div class="col-12" style="display: flex;text-align: center;justify-content: center;margin-top: 70px;">
-                  <div class="col-6" style="text-align:start;">
+          <div class="container" id="contact">
+              <div class="col-12" style="display: flex;text-align: start;justify-content: center;margin-top: 70px;margin-bottom: 60px;">
+                  <div class="col-6">
                      <h4 style="color: #071e55;">Get in touch</h4>
                      <form>
                        <div class="input mt-4" style="    color: #727272;">
                         <input type="text" class="personal-information" placeholder="Full Name*">
                         <input type="text" class="personal-information" placeholder="Email Adress*">
-                        <input type="text" class="personal-information" placeholder="Phone Number*">
-                        <textarea class="form-control" id="Text area" rows="3" maxlength="200"></textarea>
-                       </div>
+                        <input type="text" class="personal-information" placeholder="Phone Number*" style="margin-bottom: 50px;">
+                        <textarea class="personal-information" id="Text-area" rows="5" maxlength="200" style="height: 150px;" placeholder="Your Mensage"></textarea>
+                       <a href="#" type="button" class="btn btn-primary" style="height: 50px;"><strong>SEND MENSAGE</strong></a>
+                      </div>
                      </form>
                   </div>
                   <div class="col-6">
-                      
+                    <h4 style="color: #071e55;" class="mb-4">How to find us</h4>
+                      <img src="img/maps.jfif" style="width: 100%;">
+                      <h5 style="color: #071e55;" class="my-3">Head Office</h5>
+                      <ul style="list-style: none;">
+                        <li style="display: flex;" class="mb-2"><i class="fas fa-map-marker-alt" style="color:#1e90ff;margin-top: 2px;"></i><p class="text-muted ml-3" style="font-size: 15px;">10 Oxford Street, London, UK, E1 1EC</p></li>
+                        <li style="display: flex;" class="mb-2"><i class="fas fa-envelope-open" style="color:#1e90ff;margin-top: 2px;"></i><p class="text-muted ml-3" style="font-size: 15px;"><a href="#" class="text-muted"> office@smart.co.uk</a></p></li>
+                        <li style="display: flex;" class="mb-2"><i class="fas fa-phone" style="color:#1e90ff;margin-top: 2px;"></i><p class="text-muted ml-3" style="font-size: 15px;"> +44 987 654 321</p></li>
+                      </ul>
                   </div>
               </div>
           </div>
       </div>
   </div>
 </section>
+  <footer style="background-color:#f5f7fc;">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="container my-4" style="display: flex;">
+          <div class="col-6">
+            <p style="font-size: 20px;">© 2021 <b>Smart.</b> Designed by</p>
+          </div>
+          <div class="col-6">
+          <ul style="list-style: none; display: flex;font-size: 20px;">
+            <li><p class="text-muted">Follw us:</p></li>
+            <li><a href="#"><i class="fab fa-twitter mx-2" style="color: #4099ff;"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram mr-2" style="color: #3b5998;;"></i></a></li>
+            <li><a href="#"><i class="fab fa-whatsapp mr-2" style="color: #4FCE5D;"></i></a></li>
+            <li><a href="#"><i class="fab fa-google mr-2" style="color: #4285f4;"></i></a></li>
+            <li><a href="#"><i class="fab fa-git mr-2" style="color: #ea4c89;"></i></a></li>
+          </ul>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
 
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
