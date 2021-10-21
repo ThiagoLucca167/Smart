@@ -10,6 +10,10 @@ body{
     margin: 0;
     padding: 0;
 }
+p{
+    margin: 0;
+    padding: 0;
+}
 .abrand{
     margin: 0;
     margin-right: 15px;
@@ -161,4 +165,66 @@ input::-webkit-input-placeholder{
 }
 .color-star-5{
     color: #b8b9bb;
+}
+/*Pricing*/
+.cardspricing{
+    max-width: 22rem;
+    box-shadow: 0px 0px 20px rgb(0 0 0 / 15%);
+    margin-top: 100px;
+    margin-right: 60px;
+    border-radius: 10px;
+    border: none;
+}
+.cardpricingbody{
+    background-color: white;
+    border-bottom: 3px solid #e0e0e0;
+    border-radius: 10px;
+}
+.cardpricingbody:hover{
+    border-bottom: 3px solid #009ffd;
+}
+.pircingcheck{
+display: flex;
+}
+.text-prime{
+    font-size: 16px;
+    margin-left: 5px;
+    position: relative;
+    top: -6px;
+}
+.btn-pricing{
+    background-color: transparent;
+    color: #1e90ff;
+    border-color:#1e90ff;
+    height: 50px;
+}
+.btn-pricing:hover{
+    background-color:#1e90ff;
+    color:white;
+    border-color:#1e90ff;
+}
+/*Amazing Features*/
+.iconsfeatures{
+    margin-bottom: 60px;
+}
+.cardblog{
+    max-width: 24rem;
+    margin-top: 75px;
+    margin-right: 60px;
+    border-radius: 10px;
+    border: none;
+}
+.cardblog:hover{
+    position: relative;
+    bottom: 70px;
+    transition: all 1s;
+}
+/*Personal Information*/
+.personal-information{
+    width: 100%;
+    height: 45px;
+    border: 1px solid #ececec;
+    color: #727272;
+    background-color: #f6f7f8;
+    margin-bottom: 15px;
 }
